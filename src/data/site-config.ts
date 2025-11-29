@@ -20,10 +20,10 @@ const siteConfig: SiteConfig = {
             text: 'Home',
             href: '/'
         },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
+        // {
+        //     text: 'Contact',
+        //     href: '/contact'
+        // },
         // {
         //     text: 'Projects',
         //     href: '/projects'
@@ -42,10 +42,10 @@ const siteConfig: SiteConfig = {
         //     text: 'About',
         //     href: '/about'
         // },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
+        // {
+        //     text: 'Contact',
+        //     href: '/contact'
+        // },
         // {
         //     text: 'Terms',
         //     href: '/terms'
@@ -70,17 +70,17 @@ const siteConfig: SiteConfig = {
         // }
     ],
     hero: {
-        title: 'Hi there, welcome to my corner of the web!',
-        text: "I'm **Katinka van Houwelingen**, a free lance artist, dedicated to the realms of arts and craft.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional prints.\nI have a profound appreciation for sophisticated art, visual design, and the principles of beauty.\n\nFeel free to explore some of my artistic endeavors on [Instagram](https://instagram.com/katinkprints).",
+        title: 'Welcome to my website!',
+        text: "I'm **Katinka van Houwelingen**, a print making artist. This website is currently under construction but you can follow me on instagram [@katinkprints](https://instagram.com/katinkprints) to stay updated.\n\nUntil my webshop is up and running, you can contact me through email or send me a message on instagram if you're interested in buying a print.\n\nThank you for stopping by!",
         image: {
             src: hero,
             alt: 'Dark horse on white paper. Title: Appalosa 2'
         },
         actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
+            // {
+            //     text: 'Instagram',
+            //     href: 'https://instagram.com/katinkprints',
+            // }
         ]
     },
     // subscribe: {

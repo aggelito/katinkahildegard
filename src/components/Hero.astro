@@ -27,6 +27,10 @@ const { title, image, text, actions } = Astro.props;
                 </figure>
             )}
             {text && <div class="prose sm:prose-lg max-w-none" set:html={marked.parse(text)} />}
+            <div class="prose sm:prose-lg max-w-none">
+                <div>Email: <a href="mailto:vanhouwelingenkatinka@gmail.com">vanhouwelingenkatinka@gmail.com</a></div>
+                <div>Instagram: <a href="https://instagram.com/katinkprints" target="_blank">@katinkprints</a></div>
+            </div>
             {actions && actions.length > 0 && (
                 <div class="flex flex-wrap gap-4">
                     {actions.map((action) => (
