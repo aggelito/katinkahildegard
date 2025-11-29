@@ -11,10 +11,10 @@ const siteConfig: SiteConfig = {
     title: 'Katinka van Houwelingen',
     subtitle: 'Artist',
     description: '',
-    image: {
-        src: '/dante-preview.jpg',
-        alt: 'Katinka van Houwelingen'
-    },
+    // image: {
+    //     src: '/dante-preview.jpg',
+    //     alt: 'Katinka van Houwelingen'
+    // },
     headerNavLinks: [
         {
             text: 'Home',
