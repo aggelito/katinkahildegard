@@ -10,7 +10,7 @@ const siteConfig: SiteConfig = {
     },
     title: 'Katinka van Houwelingen',
     subtitle: 'Artist',
-    description: 'Artist from southern Sweden working mainly with linoleum prints.',
+    description: '',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Katinka van Houwelingen'
