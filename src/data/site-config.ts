@@ -8,12 +8,12 @@ const siteConfig: SiteConfig = {
         src: avatar,
         alt: 'Ethan Donovan'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Katinka van Houwelingen',
+    subtitle: 'Artist',
+    description: 'Artist from southern Sweden working mainly with linoleum prints.',
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'Katinka van Houwelingen'
     },
     headerNavLinks: [
         {
@@ -21,56 +21,60 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'Contact',
+            href: '/contact'
         },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
+        // {
+        //     text: 'Projects',
+        //     href: '/projects'
+        // },
+        // {
+        //     text: 'Blog',
+        //     href: '/blog'
+        // },
+        // {
+        //     text: 'Tags',
+        //     href: '/tags'
+        // }
     ],
     footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
+        // {
+        //     text: 'About',
+        //     href: '/about'
+        // },
         {
             text: 'Contact',
             href: '/contact'
         },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+        // {
+        //     text: 'Terms',
+        //     href: '/terms'
+        // },
+        // {
+        //     text: 'Download theme',
+        //     href: 'https://github.com/JustGoodUI/dante-astro-theme'
+        // }
     ],
     socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
+        // {
+        //     text: 'Dribbble',
+        //     href: 'https://dribbble.com/'
+        // },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://instagram.com/katinkprints'
         },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
+        // {
+        //     text: 'X/Twitter',
+        //     href: 'https://twitter.com/'
+        // }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: 'Hi there, welcome to my corner of the web!',
+        text: "I'm **Katinka van Houwelingen**, a free lance artist, dedicated to the realms of arts and craft.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional prints.\nI have a profound appreciation for sophisticated art, visual design, and the principles of beauty.\n\nFeel free to explore some of my artistic endeavors on [Instagram](https://instagram.com/katinkprints).",
         image: {
             src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'Dark horse on white paper. Title: Appalosa 2'
         },
         actions: [
             {
@@ -79,14 +83,14 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        enabled: true,
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        form: {
-            action: '#'
-        }
-    },
+    // subscribe: {
+    //     enabled: true,
+    //     title: 'Subscribe to Dante Newsletter',
+    //     text: 'One update per week. All the latest posts directly in your inbox.',
+    //     form: {
+    //         action: '#'
+    //     }
+    // },
     postsPerPage: 8,
     projectsPerPage: 8
 };
