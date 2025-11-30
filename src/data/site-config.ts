@@ -71,7 +71,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Welcome to my website!',
-        text: "I'm **Katinka van Houwelingen**, a print making artist. This website is currently under construction but you can follow me on instagram [@katinkprints](https://instagram.com/katinkprints) to stay updated.\n\nUntil my webshop is up and running, you can contact me through email or send me a message on instagram if you're interested in buying a print.\n\nThank you for stopping by!",
+        text: "I'm **Katinka van Houwelingen**, I make linocut prints. This website is currently under construction but you can follow me on instagram [@katinkprints](https://instagram.com/katinkprints) to stay updated.\n\nUntil my webshop is up and running, you can contact me through email or send me a message on instagram if you're interested in buying a print.\n\nThank you for stopping by!",
         image: {
             src: hero,
             alt: 'Dark horse on white paper. Title: Appalosa 2'
